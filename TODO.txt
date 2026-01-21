@@ -1,0 +1,35 @@
+Tagging boxes with depth
+Visualize boxes
+Qlearning
+ - 
+Solving games
+ - 
+TTT?
+ - need to generalize/move state canonicalization to State
+
+https://github.com/GergKllai1/hexapawn-machine-learning
+ - react game
+ - pointers to a more recent martin gardner article
+
+--------------------
+Points to make
+ - boxes is reinforcement learning formulation (not algorithm)
+   - vs Samuel's game-playing method
+ - boxes algorithm is 'made of numbers (probabilities) not
+   heuristics'
+    - Q as example, can I describe black's strategy with heuristics?
+      - maybe added a little lookahead (eg, one move) would
+        make the rest of the strategy easier?
+      - alternative: could use 'how to lose TTT'
+ - learning gets harder the better you get and the more you have to learn
+ - real learning requires generalization
+ - RL is used to make LLMs friendly
+
+ - lots of different motivations and questions
+   - delayed reward / credit assignment
+   - optimal control
+   - game playing
+   - generalization better underlying learning
+   - understanding natural learning
+     - dopamine and td-lambda
+     - bayesian info gathering
